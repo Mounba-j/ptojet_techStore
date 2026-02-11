@@ -1,5 +1,5 @@
 name: tech_store
-description: "A new Flutter project."
+description: "Boutique en ligne de vente des produits informatiques"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+    
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -37,6 +39,9 @@ dependencies:
   intl: ^0.18.1
   provider: ^6.0.5
   image_picker: ^1.0.0
+  flutter_launcher_icons: ^0.14.4
+
+
 
 dev_dependencies:
   flutter_test:
@@ -49,12 +54,16 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
 
+flutter_launcher_icons:
+  android: "TechStore_logo.png"
+  ios: true
+  image_path: "lib/assets/images/TechStore_logo.png"
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -67,7 +76,8 @@ flutter:
     - lib/assets/images/macbook_pro.webp
     - lib/assets/images/apple_ipad_pro.webp
     - lib/assets/images/dji_drone_air_3.jpg
-    - lib/assets/images/sony_wh1000xm5.jpg
+    - lib/assets/images/apple_watch_series_9.png
+    - lib/assets/images/TechStore_logo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

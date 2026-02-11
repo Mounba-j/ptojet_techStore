@@ -74,6 +74,14 @@ List<Product> productCatalog = [
     price: 309950,
     imageUrl: 'lib/assets/images/dji_drone_air_3.jpg',
   ),
+  Product(
+    id: 7,
+    title: 'Apple Watch Series 9',
+    description:
+        'Montre connectée Apple avec écran Always-On Retina, processeur S9 et suivi de santé avancé. Parfaite pour le fitness, la santé et la connectivité au quotidien.',
+    price: 499900,
+    imageUrl: 'lib/assets/images/apple_watch_series_9.png',
+  ),
 ];
 
 /// ============================================================================
@@ -88,6 +96,7 @@ List<Product> featuredProducts = [
   productCatalog[0], // iPhone 15 Pro
   productCatalog[2], // MacBook Pro
   productCatalog[4], // iPad Pro
+  productCatalog[6], // Apple Watch Series 9
 ];
 
 /// ============================================================================
