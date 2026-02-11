@@ -25,11 +25,11 @@ class ProductDetailScreen extends StatefulWidget {
 
   /// Constructeur de l'écran de détails
   const ProductDetailScreen({
-    Key? key,
+    super.key,
     required this.product,
     required this.onAddToCart,
     required this.onBack,
-  }) : super(key: key);
+  });
 
   @override
   State<ProductDetailScreen> createState() => _ProductDetailScreenState();

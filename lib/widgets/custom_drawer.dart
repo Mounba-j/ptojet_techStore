@@ -18,11 +18,11 @@ class CustomDrawer extends StatelessWidget {
 
   /// Constructeur du drawer
   const CustomDrawer({
-    Key? key,
+    super.key,
     required this.onHome,
     required this.onCart,
     required this.onAdmin,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

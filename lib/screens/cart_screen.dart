@@ -38,14 +38,14 @@ class CartScreen extends StatefulWidget {
 
   /// Constructeur de l'écran panier
   const CartScreen({
-    Key? key,
+    super.key,
     required this.cartItems,
     required this.onIncreaseQuantity,
     required this.onDecreaseQuantity,
     required this.onRemoveItem,
     required this.onCheckout,
     required this.onNavigateHome,
-  }) : super(key: key);
+  });
 
   @override
   State<CartScreen> createState() => _CartScreenState();

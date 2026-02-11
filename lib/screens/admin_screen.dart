@@ -19,7 +19,7 @@ class AdminScreen extends StatefulWidget {
   final VoidCallback onCancel;
 
   /// Constructeur de l'écran d'administration
-  const AdminScreen({Key? key, required this.onAddProduct, required this.onCancel}) : super(key: key);
+  const AdminScreen({super.key, required this.onAddProduct, required this.onCancel});
 
   @override
   State<AdminScreen> createState() => _AdminScreenState();

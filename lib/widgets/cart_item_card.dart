@@ -25,12 +25,12 @@ class CartItemCard extends StatelessWidget {
 
   /// Constructeur de la carte article panier
   const CartItemCard({
-    Key? key,
+    super.key,
     required this.cartItem,
     required this.onIncreaseQuantity,
     required this.onDecreaseQuantity,
     required this.onRemove,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

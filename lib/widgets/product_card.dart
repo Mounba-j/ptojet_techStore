@@ -27,11 +27,11 @@ class ProductCard extends StatelessWidget {
 
   /// Constructeur de la carte produit
   const ProductCard({
-    Key? key,
+    super.key,
     required this.product,
     required this.onAddToCart,
     required this.onProductTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

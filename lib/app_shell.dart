@@ -18,7 +18,7 @@ import 'providers/app_state.dart';
 /// - cart : liste mutable des articles du panier
 /// - Méthodes : addToCart, removeFromCart, updateQuantity, etc.
 class AppShell extends StatelessWidget {
-  const AppShell({Key? key}) : super(key: key);
+  const AppShell({super.key});
 
   @override
   Widget build(BuildContext context) {

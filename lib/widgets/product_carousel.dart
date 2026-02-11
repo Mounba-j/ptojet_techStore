@@ -20,10 +20,10 @@ class ProductCarousel extends StatefulWidget {
 
   /// Constructeur du carrousel
   const ProductCarousel({
-    Key? key,
+    super.key,
     required this.products,
     required this.onProductTap,
-  }) : super(key: key);
+  });
 
   @override
   State<ProductCarousel> createState() => _ProductCarouselState();
